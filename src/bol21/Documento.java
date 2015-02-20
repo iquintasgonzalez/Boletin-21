@@ -5,11 +5,14 @@
  */
 package bol21;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Administrador
  */
 public class Documento {
+
     String contenido;
     int numCop;
 
@@ -39,12 +42,9 @@ public class Documento {
 
     @Override
     public String toString() {
-        return   "El mensaje es =" + contenido + ", Numero de Copias=" + numCop ;
+        return "El mensaje es =" + contenido + ", Numero de Copias=" + numCop;
     }
-     public void TantasVeces(int x) {
-         for (int i = 0; i < x; i++) {
-             System.out.println( "El mensaje es =" + contenido)  ;
-    }
-           
-}
+
+    
+    
 }
